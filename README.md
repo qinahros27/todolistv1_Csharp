@@ -1,4 +1,52 @@
-# Todolistv1_Csharp
+# Introduction
+This project uses C#, ASP.NET Core with Entity Framework, and PostgreSQL to create the backend for a personal to-do application that requires users to be logged in before they can call the APIs. One user can sign in, sign up, change their password; create, update, delete, and read the user's to-do lists.
+
+## Table of content
+- Technologies
+- Project structure
+- Getting started
+
+## Technologies 
+- C#
+- ASP.NET Core
+- PostgreSQL
+
+## Project structure
+```
+.
+└───Todolistv1_Csharp
+    └───todolistv1
+        └───Controllers
+            └───LoginController.cs
+            └───PasswordController.cs
+            └───TodoesController.cs
+            └───UsersController.cs
+        └───Data
+            └───todolistv1Context.cs
+        └───Migrations
+        └───Models
+            └───Todo.cs
+            └───User.cs
+        └───Properties
+            └───launchSettings.json
+            └───serviceDependencies.json
+            └───serviceDependencies.local.json
+        └───Repository
+            └───ITodo.cs
+            └───TodoRepository.cs
+        └───Program.cs
+        └───appsettings.Development.json
+        └───appsettings.json
+        └───todolistv1.csproj
+    └───.gitattributes
+    └───.gitignore
+    └───README.md
+    └───todolistv1.sln
+```
+## Getting started
+Clone the respository from github: ```git clone```
+
+<!--- # Todolistv1_Csharp
 ## Install Required Nuget Packages
 + Microsoft.EntityFrameworkCore
 + Microsoft.EntityFrameworkCore.Tools
@@ -610,5 +658,5 @@ In postgre database:
 
 
 
-
+--->
 
